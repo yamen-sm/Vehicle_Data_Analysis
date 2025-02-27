@@ -1,4 +1,4 @@
-# 🚗 Vehicle Sales Database - SQL Project
+#  Vehicle Sales Database - SQL Project
 
 ## 📌 Project Overview
 
@@ -61,7 +61,7 @@ The SQL scripts in this repository include database schema creation, sample data
 
 ---
 
-## 🔍 SQL Queries Included
+##  SQL Queries Included
 
 ### **Basic Queries**
 
@@ -90,14 +90,14 @@ The SQL scripts in this repository include database schema creation, sample data
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 - **PostgreSQL** - Relational database management system
 - **SQL** - Query language for data manipulation and retrieval
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and can be modified and distributed freely.
 
