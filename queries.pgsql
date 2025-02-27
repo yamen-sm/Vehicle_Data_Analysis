@@ -16,8 +16,10 @@
 --     year,
 --     price,
 --     status
--- FROM vehicles
--- WHERE status = 'Available'
+-- FROM 
+--    vehicles
+-- WHERE 
+--    status = 'Available'
 
 
 -- 3. Find the total number of sales per dealership.
@@ -37,16 +39,20 @@
 -- SELECT 
 --     vehicleid,
 --     ROUND(AVG(saleprice),2) AS avg_sale_price
--- FROM sales
--- GROUP BY vehicleid
+-- FROM 
+--    sales
+-- GROUP BY 
+--    vehicleid
 
 
 -- 5. Retrieve all vehicles purchased before 2015 and cost more than $20,000.
 
 -- SELECT 
 --     *
--- FROM vehicles
--- WHERE price > 20000 AND purchasedate < '2015-01-01'
+-- FROM 
+--    vehicles
+-- WHERE 
+--    price > 20000 AND purchasedate < '2015-01-01'
 
 
 -- 6. List the top 3 dealerships with the highest number of sales.
@@ -116,7 +122,8 @@
 --     RANK() OVER (PARTITION BY dealerid ORDER BY price) AS highest_rank
 -- FROM 
 --     vehicles
--- ORDER BY highest_rank DESC
+-- ORDER BY 
+--    highest_rank DESC
 
 
 -- 11. Show all services done on cars that have been sold.
