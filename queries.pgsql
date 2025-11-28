@@ -24,14 +24,15 @@
 
 -- 3. Find the total number of sales per dealership.
 
--- SELECT 
+SELECT 
 --     d.name,
---     d.location,
---     COUNT(s.saleid) AS total_sales_per_dealership
+--     COUNT(s.saleid) AS total_sales
 -- FROM 
 --     dealerships AS d
--- LEFT JOIN sales AS s ON s.saleid = d.dealerid
--- GROUP BY d.name, d.location
+-- LEFT JOIN vehicles AS v ON v.dealerid = d.dealerid
+-- LEFT JOIN sales AS s ON s.vehicleid = v.vehicleid
+-- GROUP BY d.name
+-- ORDER BY total_sales DESC;
 
 
 -- 4. Get the average sale price of vehicles.
@@ -371,3 +372,4 @@
 -- ORDER BY 
 --     SalePrice DESC
 -- LIMIT 3
+
