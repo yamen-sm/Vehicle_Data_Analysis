@@ -24,7 +24,7 @@
 
 -- 3. Find the total number of sales per dealership.
 
-SELECT 
+-- SELECT 
 --     d.name,
 --     COUNT(s.saleid) AS total_sales
 -- FROM 
@@ -372,4 +372,5 @@ SELECT
 -- ORDER BY 
 --     SalePrice DESC
 -- LIMIT 3
+
 
